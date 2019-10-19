@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+}
+
+.container {
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.side-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 408px;
+  height: 100%;
+  background-color: rgb(245, 245, 245);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.main-content {
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  margin: 0;
+  font-size: 30px;
+  margin-left: 20px;
+  margin-top: 4px;
+  font-weight: normal;
+}
+
+.item-bottom {
+}
+
+.text {
+  display: inline-block;
+  font-size: 14px;
+}
+
+.text-red {
+  color: #db2828;
+}
+
+.text-blue {
+  color: #2185d0;
+}
+
+.mark {
+  display: inline-block;
+  width: 50px;
+  height: 20px;
+  margin-right: 10px;
+  margin-bottom: 8px;
+  vertical-align: middle;
+  color: #fff;
+  text-align: center;
+}
+
+.mark-red {
+  background-color: #db2828;
+}
+
+.mark-blue {
+  background-color: #2185d0;
+}
+

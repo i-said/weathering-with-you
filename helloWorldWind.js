@@ -55,8 +55,9 @@ console.log(wwd.layers)
 
 var layers = wwd.layers;
 for(var i in layers){
-    var removeBtn = "<button onClick='clickRemoveLayer()' value='" + layers[i].displayName + "'>" + layers[i].displayName +" remove</button>"
-    $("#layers-option").append(removeBtn)
+    var removeBtn = "<button onClick='clickRemoveLayer()' value='" + layers[i].displayName + "' class='ui button'>" + layers[i].displayName +" remove</button>"
+    var itemList = "<div class='item'>"+ removeBtn +"</div>"
+    $("#layers-option").append(itemList)
 }
 
 
